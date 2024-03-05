@@ -1,7 +1,7 @@
 # Expression-pedal
 Arduino project to get MIDI output from an analog expression or volume pedal
 
-The original purpose of this project was to build a swell pedal to use with an organ emulator.  I used a Yamaha EP-3 pedal which includes an audio taper pot, but I wanted linear output, so a "de-tapering" function is included.
+The original purpose of this project was to build a swell pedal to use with an organ emulator.  I used a Yamaha EP-1 pedal which includes an audio taper pot, but I wanted linear output, so a "de-tapering" function is included.
 
 This project requires a board with native USB.  This includes ATmega32u4 boards such as the Arduino Leonardo, Arduino Micro, or the SparkFun Pro Micro.
 
