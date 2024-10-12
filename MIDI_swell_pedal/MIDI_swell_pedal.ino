@@ -2,7 +2,7 @@
 #include <InterpolationLib.h>
 
 // MIDI channel and CC number
-const uint8_t channel = 0; // zero-based
+const uint8_t channel = 1; // zero-based
 const uint8_t swellCC = 11;
 
 // Analog pin to read swell pedal position from
