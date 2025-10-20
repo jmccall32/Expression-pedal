@@ -10,7 +10,7 @@ const uint8_t swellPin = A2;
 
 // Values for cycle timing
 const uint8_t cycleTime_ms = 20; // minimum time between sending control codes
-unsigned long cycleEndTime_ms = 0;
+uint64_t cycleEndTime_ms = 0;
 
 // Swell pedal position, 0-127
 uint8_t swellValue = 127;
@@ -86,3 +86,4 @@ void sendCC(uint8_t channel, uint8_t ccNumber, uint8_t value)
   MidiUSB.sendMIDI(midiPacket);
   MidiUSB.flush();
 }
+
